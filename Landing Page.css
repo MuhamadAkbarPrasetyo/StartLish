@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+ 
+.navbar a{
+    color: #131313;
+    text-decoration: none;  
+     border-bottom: 3px solid transparent;
+    font-family: "Montserrat";
+}
+.navbar a:hover{
+    border-bottom: 3px solid #F89408;
+
+}
+.nav-active {
+   
+    border-bottom: 3px solid #F89408;
+  }
+
+  
+  .register a {
+    text-decoration: none;
+    color: #171717;
+   
+  }
+
+  .judul {
+    font-size: 3rem;
+  }
+
+  .kataunik {
+    color: #F89408;
+  }
+  
+ /* ...existing code... */
+.container-button {
+    float: left;
+    /* Hapus padding, background, border-radius di sini */
+}
+
+.container-button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #EEEEEE;
+    font-family: "Montserrat";
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 99px;
+    background: #F89408;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.container-button a:hover {
+    background: #ffd8a2;
+    color: #F89408;
+    transform: scale(1.05);
+}
+/* ...existing code... */
+
+@media (max-width: 767.98px) {
+  .sticky-top {
+    position: static !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .text-center-mobile {
+    text-align: center !important;
+  }
+}
