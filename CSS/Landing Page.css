@@ -9,12 +9,12 @@ html {
     font-family: "Montserrat";
 }
 .navbar a:hover{
-    border-bottom: 3px solid #F89408;
+    border-bottom: 3px solid #04C45C;
 
 }
 .nav-active {
    
-    border-bottom: 3px solid #F89408;
+    border-bottom: 3px solid #04C45C;
   }
 
   
@@ -29,7 +29,7 @@ html {
   }
 
   .kataunik {
-    color: #F89408;
+    color: #04C45C;
   }
   
  /* ...existing code... */
@@ -46,13 +46,13 @@ html {
     display: inline-block;
     padding: 10px 25px;
     border-radius: 99px;
-    background: #F89408;
+    background: #04C45C;
     transition: background 0.3s, color 0.3s, transform 0.3s;
 }
 
 .container-button a:hover {
-    background: #ffd8a2;
-    color: #F89408;
+    background: #48c281;
+    color: #EEEEEE;
     transform: scale(1.05);
 }
 /* ...existing code... */
